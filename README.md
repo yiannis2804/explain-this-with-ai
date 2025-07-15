@@ -5,17 +5,17 @@
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🌐 Chrome Extension for contextual interaction
-- 🔁 Right-click context menu to trigger explanation
-- 🧠 Backend powered by OpenAI GPT (via API)
-- 🌍 Flask server deployed to Render
-- 🔐 API key secured via environment variable
+-  Chrome Extension for contextual interaction
+-  Right-click context menu to trigger explanation
+-  Backend powered by OpenAI GPT (via API)
+-  Flask server deployed to Render
+-  API key secured via environment variable
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 ```
 explain-this-with-ai/
@@ -32,7 +32,7 @@ explain-this-with-ai/
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: JavaScript (Chrome Extension APIs)
 - **Backend**: Python (Flask)
@@ -42,7 +42,7 @@ explain-this-with-ai/
 
 ---
 
-## 🚀 How It Works
+##  How It Works
 
 1. **User Action**: Highlight any text in Chrome and right-click → "Explain This".
 2. **Chrome Extension**: Sends the selected text as a POST request to the Flask backend.
@@ -51,14 +51,14 @@ explain-this-with-ai/
 
 ---
 
-## 📦 Installation
+##  Installation
 
-### 🔌 Chrome Extension
+###  Chrome Extension
 1. Go to `chrome://extensions`
 2. Enable "Developer mode"
 3. Click "Load unpacked" and select the `explain-this-extension/` folder
 
-### 🧠 Flask Backend
+###  Flask Backend
 1. Create a `.env` or use your hosting environment to set your OpenAI API key:
    ```bash
    export OPENAI_API_KEY="sk-..."
@@ -74,7 +74,7 @@ explain-this-with-ai/
 
 ---
 
-## 🧪 Example Output
+##  Example Output
 
 Selected Text:
 > *"Quantum entanglement is a physical phenomenon that occurs when pairs or groups of particles are generated..."*
@@ -84,14 +84,14 @@ Explanation Returned:
 
 ---
 
-## 📄 Report
+##  Report
 
 A full project report with screenshots, explanations, and setup steps is available in:
 **`Explain_This_with_AI_Project_Report.pdf`**
 
 ---
 
-## 🧠 Outcome
+##  Outcome
 
 This project showcases a full-stack integration of browser-based UI with an AI-powered backend. It demonstrates how to:
 - Build and register a Chrome extension
@@ -102,6 +102,6 @@ This project showcases a full-stack integration of browser-based UI with an AI-p
 
 ---
 
-## 📌 Author
+##  Author
 
 Yiannis | [github.com/yiannis2804](https://github.com/yiannis2804)
